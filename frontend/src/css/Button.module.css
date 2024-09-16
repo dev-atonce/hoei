@@ -1,0 +1,57 @@
+
+.btn{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: ease 0.75s;
+}
+.primary {
+    color: rgb(235, 235, 235);
+    background-color: rgba(0, 6, 195);
+}
+.primary:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 5, 1161);
+}
+.secondary {
+    color: rgb(66, 66, 66);
+    background-color: rgba(211, 211, 211);
+}
+.secondary:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(200, 200, 200);
+}
+.info{
+    color: rgb(235, 235, 235);
+    background-color: rgb(0, 161, 255);
+}
+.info:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 149, 236);
+}
+.warning{
+    color: rgb(235, 235, 235);
+    background-color: rgb(255, 187, 0);
+}
+.warning:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(233, 171, 0);
+}
+.danger {
+    color: rgb(235, 235, 235);
+    background-color: rgb(255, 45, 45);
+}
+.danger:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(239, 25, 251);
+}
+.dark{
+    color: rgb(235, 235, 235);
+    background-color: rgb(100, 100, 100);
+}
+.dark:hover{
+    color: rgb(235, 235, 235);
+    background-color: rgb(81, 81, 81);
+}

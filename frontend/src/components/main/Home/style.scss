@@ -1,0 +1,12 @@
+.project {
+  .swiper-pagination-bullet {
+    background-color: black !important;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #0da1db !important;
+  }
+
+  .swiper-pagination {
+    transform: translateY(-20px);
+  }
+}
